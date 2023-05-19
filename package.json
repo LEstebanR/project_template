@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "cypress:open": "cypress open",
-    "test": "cypress run",
-    "postinstall": "husky install"
+    "test": "cypress run"
   },
   "dependencies": {
     "@types/node": "20.2.1",
@@ -30,8 +29,6 @@
     "eslint-config-next": "13.4.2",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-prettier": "4.2.1",
-    "husky": "^8.0.3",
-    "pinst": "^3.0.0",
     "prettier": "2.8.8"
   }
 }
